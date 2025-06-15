@@ -1,0 +1,249 @@
+{
+  "polygons": [
+    {
+      "coordinates": [
+        [4364552.510695502, 6738658.335053388],
+        [4364578.785880192, 6738671.270398681],
+        [4364647.263842314, 6738704.4213973945],
+        [4364644.371316666, 6738710.392747557],
+        [4364654.691078739, 6738715.386462082],
+        [4364657.872812426, 6738708.90367804],
+        [4364663.00475227, 6738711.385460722],
+        [4364660.0749345925, 6738717.432005285],
+        [4364685.939573, 6738729.946276239],
+        [4364676.739462364, 6738748.9435566915],
+        [4364653.683414709, 6738737.7828464415],
+        [4364646.312171987, 6738753.004692332],
+        [4364672.027530958, 6738765.458902128],
+        [4364663.975124272, 6738782.0946926],
+        [4364645.724293755, 6738773.265358856],
+        [4364639.8180155335, 6738785.478956049],
+        [4364644.100698983, 6738787.539590762],
+        [4364678.409700003, 6738804.506334604],
+        [4364722.245311728, 6738715.311272808],
+        [4364667.866074434, 6738688.582877094],
+        [4364589.236331347, 6738649.836755914],
+        [4364585.933259417, 6738656.530164849],
+        [4364559.742009624, 6738643.639884384],
+        [4364552.510695502, 6738658.335053388]
+      ],
+      "points": [
+        {
+          "longitude": 4364654.8258866427,
+          "latitude": 6738786.9407630516,
+          "measurements": [
+            {
+              "temperature": 22.8,
+              "co2_level": 480,
+              "humidity": 55,
+              "pressure": 1012,
+              "createdAt": "2025-05-01T09:30:00Z",
+              "measurementDevice": {
+                "name": "CampusSensor-1",
+                "manufacturer": "UniTech",
+                "serialNumber": "UT-33456"
+              }
+            },
+            {
+              "temperature": 25.3,
+              "co2_level": 520,
+              "humidity": 48,
+              "pressure": 1011,
+              "createdAt": "2025-05-01T14:15:00Z",
+              "measurementDevice": {
+                "name": "CampusSensor-1",
+                "manufacturer": "UniTech",
+                "serialNumber": "UT-33456"
+              }
+            },
+            {
+              "temperature": 20.1,
+              "co2_level": 410,
+              "humidity": 62,
+              "pressure": 1013,
+              "createdAt": "2025-05-01T06:45:00Z",
+              "measurementDevice": {
+                "name": "NightMonitor",
+                "manufacturer": "EcoVarsity",
+                "serialNumber": "EV-77892"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4364673.3271860126,
+          "latitude": 6738778.5783548243,
+          "measurements": [
+            {
+              "temperature": 23.5,
+              "co2_level": 510,
+              "humidity": 52,
+              "pressure": 1012,
+              "createdAt": "2025-05-01T10:20:00Z",
+              "measurementDevice": {
+                "name": "LabZone Sensor",
+                "manufacturer": "SciTech",
+                "serialNumber": "ST-44567"
+              }
+            },
+            {
+              "temperature": 19.7,
+              "co2_level": 390,
+              "humidity": 67,
+              "pressure": 1014,
+              "createdAt": "2025-05-01T22:30:00Z",
+              "measurementDevice": {
+                "name": "LabZone Sensor",
+                "manufacturer": "SciTech",
+                "serialNumber": "ST-44567"
+              }
+            },
+            {
+              "temperature": 26.2,
+              "co2_level": 590,
+              "humidity": 45,
+              "pressure": 1010,
+              "createdAt": "2025-05-01T15:45:00Z",
+              "measurementDevice": {
+                "name": "SolarTrack V3",
+                "manufacturer": "SunMetrics",
+                "serialNumber": "SM-11223"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4364656.6069984954,
+          "latitude": 6738751.6966801956,
+          "measurements": [
+            {
+              "temperature": 21.9,
+              "co2_level": 430,
+              "humidity": 58,
+              "pressure": 1013,
+              "createdAt": "2025-05-01T08:15:00Z",
+              "measurementDevice": {
+                "name": "EduClimate Pro",
+                "manufacturer": "AcademSense",
+                "serialNumber": "AS-55678"
+              }
+            },
+            {
+              "temperature": 24.8,
+              "co2_level": 540,
+              "humidity": 50,
+              "pressure": 1011,
+              "createdAt": "2025-05-01T13:30:00Z",
+              "measurementDevice": {
+                "name": "EduClimate Pro",
+                "manufacturer": "AcademSense",
+                "serialNumber": "AS-55678"
+              }
+            },
+            {
+              "temperature": 18.5,
+              "co2_level": 380,
+              "humidity": 70,
+              "pressure": 1014,
+              "createdAt": "2025-05-01T05:00:00Z",
+              "measurementDevice": {
+                "name": "DawnPatrol",
+                "manufacturer": "MorningLabs",
+                "serialNumber": "ML-33445"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4364564.6682310493,
+          "latitude": 6738660.3391297283,
+          "measurements": [
+            {
+              "temperature": 22.3,
+              "co2_level": 470,
+              "humidity": 56,
+              "pressure": 1012,
+              "createdAt": "2025-05-01T09:45:00Z",
+              "measurementDevice": {
+                "name": "QuadSensor",
+                "manufacturer": "PolyTech",
+                "serialNumber": "PT-66789"
+              }
+            },
+            {
+              "temperature": 26.7,
+              "co2_level": 610,
+              "humidity": 44,
+              "pressure": 1010,
+              "createdAt": "2025-05-01T16:30:00Z",
+              "measurementDevice": {
+                "name": "HeatMap X1",
+                "manufacturer": "ThermoUni",
+                "serialNumber": "TU-88901"
+              }
+            },
+            {
+              "temperature": 20.5,
+              "co2_level": 420,
+              "humidity": 63,
+              "pressure": 1013,
+              "createdAt": "2025-05-01T07:30:00Z",
+              "measurementDevice": {
+                "name": "QuadSensor",
+                "manufacturer": "PolyTech",
+                "serialNumber": "PT-66789"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4364630.3467306173,
+          "latitude": 6738682.4292231612,
+          "measurements": [
+            {
+              "temperature": 23.0,
+              "co2_level": 490,
+              "humidity": 54,
+              "pressure": 1012,
+              "createdAt": "2025-05-01T11:00:00Z",
+              "measurementDevice": {
+                "name": "UniAir Monitor",
+                "manufacturer": "CampusTech",
+                "serialNumber": "CT-22334"
+              }
+            },
+            {
+              "temperature": 27.3,
+              "co2_level": 650,
+              "humidity": 42,
+              "pressure": 1009,
+              "createdAt": "2025-05-01T17:15:00Z",
+              "measurementDevice": {
+                "name": "PeakHeat Sensor",
+                "manufacturer": "MaxThermo",
+                "serialNumber": "MT-77654"
+              }
+            },
+            {
+              "temperature": 19.2,
+              "co2_level": 400,
+              "humidity": 68,
+              "pressure": 1014,
+              "createdAt": "2025-05-01T23:00:00Z",
+              "measurementDevice": {
+                "name": "UniAir Monitor",
+                "manufacturer": "CampusTech",
+                "serialNumber": "CT-22334"
+              }
+            }
+          ]
+        }
+      ],
+      "organizationPoint": {
+        "name": "Клиническая больница №2",
+        "longitude": 4364679.8950359694,
+        "latitude": 6738714.6762016462
+      }
+    }
+  ]
+}

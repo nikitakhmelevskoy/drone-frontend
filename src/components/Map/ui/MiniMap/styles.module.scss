@@ -1,0 +1,38 @@
+.miniMap {
+  width: 450px;
+  height: 350px;
+  canvas {
+    filter: drop-shadow(0 0 10px rgba(0, 191, 255, 0.6)) !important;
+  }
+}
+
+.customZoomControl {
+  width: 50px;
+  background-color: var(--card-bg-color);
+  border: 2px solid var(--border-color);
+  box-shadow: 0 0 8px var(--glow-color);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  button {
+    background-color: var(--card-bg-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-shadow: 0 0 4px var(--glow-color);
+
+    &:not(:last-child) {
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    &:hover {
+      background-color: var(--accent-color);
+      color: var(--card-bg-color);
+      box-shadow: 0 0 10px var(--primary-color);
+    }
+  }
+}

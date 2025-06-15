@@ -1,0 +1,24 @@
+.map {
+  position: relative;
+  width: 100%;
+  height: 521.45px;
+
+  canvas {
+    filter: drop-shadow(0 0 10px rgba(0, 191, 255, 0.6)) !important;
+  }
+}
+
+.popup {
+  background-color: var(--card-bg-color);
+  color: var(--white-color);
+  border: 1px solid var(--border-color);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--glow-color);
+  font-family: monospace;
+  font-size: 14px;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 0.2s ease;
+  z-index: 999;
+}

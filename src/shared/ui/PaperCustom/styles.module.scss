@@ -1,0 +1,27 @@
+@import url("../../styles/animations.scss");
+
+.paper {
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 191, 255, 0.3);
+
+  animation: border-glow 4s ease-in-out infinite;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(
+      90deg,
+      var(--primary-color),
+      var(--accent-color)
+    );
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,77 @@
+.loaderWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--card-bg-color);
+}
+
+.drone {
+  width: 120px;
+  height: 120px;
+}
+
+.body {
+  fill: var(--primary-color);
+  stroke: var(--accent-color);
+  stroke-width: 1.5px;
+  filter: drop-shadow(0 0 4px var(--glow-color));
+}
+
+.arm {
+  stroke: var(--accent-color);
+  stroke-width: 1;
+}
+
+.propeller {
+  fill: var(--accent-color);
+  animation: spin 1s linear infinite;
+  transform-origin: center;
+}
+
+.sdcard {
+  fill: var(--glow-color);
+  stroke: var(--accent-color);
+  stroke-width: 0.5;
+  animation: updown 1.5s ease-in-out infinite;
+}
+
+.text {
+  margin-top: 12px;
+  font-size: 1rem;
+  color: var(--white-color);
+  text-shadow: 0 0 3px var(--primary-color);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes updown {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}

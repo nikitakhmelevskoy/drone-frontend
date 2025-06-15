@@ -1,0 +1,114 @@
+@import url("../../shared/styles/animations.scss");
+
+.content {
+  min-height: 50px;
+  max-height: 70px;
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  font-weight: 400 !important;
+  span {
+    color: var(--primary-color);
+    animation: flicker 5s infinite;
+    text-shadow: 0 0 8px var(--glow-color);
+  }
+}
+
+.border {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  border-bottom: 1px solid var(--border-color);
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #00bfff, transparent);
+  }
+}
+
+.menuBlock {
+  font-size: 16px !important;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  text-transform: uppercase;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: inherit;
+
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 4px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+  }
+
+  &:hover {
+    &::after {
+      transform: scaleX(1);
+      animation: wave 2s infinite linear;
+    }
+  }
+
+  &_active {
+    &::after {
+      transform: scaleX(1);
+    }
+
+    &:hover {
+      &::after {
+        animation: none;
+      }
+    }
+  }
+}
+
+@keyframes wave {
+  0% {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  25% {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  75% {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  100% {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+}

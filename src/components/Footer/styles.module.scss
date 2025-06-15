@@ -1,0 +1,22 @@
+@import url("../../shared/styles/animations.scss");
+
+.footer {
+  margin-top: 50px;
+  min-height: 60px;
+  border-top: 1px solid var(--border-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  letter-spacing: 0.1em;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+  color: var(--accent-color);
+  text-shadow: 0 0 5px var(--glow-color);
+  animation: 1s step-end 0s infinite normal none running blink;
+  font-size: 15px;
+}

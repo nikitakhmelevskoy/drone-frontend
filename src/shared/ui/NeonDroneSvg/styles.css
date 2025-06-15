@@ -1,0 +1,121 @@
+.neon-drone-svg {
+  overflow: visible;
+}
+
+.nd-body {
+  fill: #111;
+  stroke: #0ff;
+  stroke-width: 2;
+  rx: 8;
+  transition: all 0.3s ease;
+}
+.nd-body:hover {
+  stroke: #0ff;
+  filter: drop-shadow(0 0 6px #0ff);
+}
+
+.nd-screen {
+  fill: #f0f;
+  stroke: #0ff;
+  stroke-width: 1;
+}
+
+.nd-button {
+  fill: #0ff;
+  stroke: #fff;
+  stroke-width: 1;
+  animation: pulse 1.5s infinite alternate;
+  transition: all 0.3s ease;
+}
+.nd-button:hover {
+  r: 7;
+  filter: drop-shadow(0 0 4px #0ff);
+}
+
+.nd-arm {
+  stroke: #0ff;
+  stroke-width: 3;
+  transition: stroke-width 0.2s ease;
+}
+.nd-arm:hover {
+  stroke-width: 4;
+}
+
+.nd-motor-group:hover .nd-motor {
+  stroke-width: 2;
+  r: 11;
+}
+
+.nd-motor {
+  fill: #222;
+  stroke: #0ff;
+  stroke-width: 1.5;
+  transition: all 0.3s ease;
+}
+
+.nd-propeller {
+  fill: #0ff;
+  opacity: 0.7;
+}
+
+.nd-trace {
+  fill: none;
+  stroke: #f0f;
+  stroke-width: 1.5;
+  stroke-dasharray: 4;
+  animation: trace-glow 2s linear infinite;
+}
+
+@keyframes trace-glow {
+  0% {
+    stroke-dashoffset: 20;
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.5;
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.3;
+    r: 5.5;
+  }
+  to {
+    opacity: 1;
+    r: 6.5;
+  }
+}
+
+.nd-scanner {
+  stroke: #0ff;
+  stroke-width: 2;
+  opacity: 0.7;
+  filter: drop-shadow(0 0 6px #0ff) blur(0.5px);
+  animation: scan-beam 2.5s ease-in-out infinite;
+}
+
+@keyframes scan-beam {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(100px);
+    opacity: 0.7;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+}

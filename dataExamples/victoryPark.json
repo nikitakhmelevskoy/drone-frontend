@@ -1,0 +1,165 @@
+{
+  "polygons": [
+    {
+      "coordinates": [
+        [4359044.808458365, 6747809.654398172],
+        [4359056.910445486, 6747819.652836303],
+        [4359529.976536549, 6747860.535806216],
+        [4359564.695972531, 6747391.531645958],
+        [4359488.361637346, 6747386.351880211],
+        [4359480.859705543, 6747385.854993651],
+        [4359470.595937172, 6747385.147208801],
+        [4359481.251661469, 6747222.454616084],
+        [4359492.205833322, 6747196.0596638685],
+        [4359494.211921865, 6747165.554366233],
+        [4359312.188858371, 6747153.8099550735],
+        [4359307.2248996375, 6747212.532000963],
+        [4359296.419895902, 6747340.005572807],
+        [4359315.491930301, 6747342.083466865],
+        [4359310.17341899, 6747404.149636684],
+        [4359305.489428775, 6747458.6725519365],
+        [4359273.373087765, 6747456.474088022],
+        [4359264.434355293, 6747569.737071485],
+        [4359298.090133542, 6747572.311922217],
+        [4359289.421907433, 6747669.705401323],
+        [4359280.679097265, 6747698.646781593],
+        [4359079.304030851, 6747684.627802042],
+        [4359054.885655268, 6747683.046725097],
+        [4359044.808458365, 6747809.654398172]
+      ],
+      "points": [
+        {
+          "longitude": 4359145.535231692,
+          "latitude": 6747780.591718396,
+          "measurements": [
+            {
+              "temperature": 22.4,
+              "co2_level": 430,
+              "humidity": 58,
+              "pressure": 1013,
+              "createdAt": "2025-05-01T09:00:00Z",
+              "measurementDevice": {
+                "name": "ParkSensor-ECO",
+                "manufacturer": "GreenTech",
+                "serialNumber": "GT-22987"
+              }
+            },
+            {
+              "temperature": 19.8,
+              "co2_level": 380,
+              "humidity": 65,
+              "pressure": 1014,
+              "createdAt": "2025-05-01T21:00:00Z",
+              "measurementDevice": {
+                "name": "NightGuard",
+                "manufacturer": "EcoSystems",
+                "serialNumber": "ES-44521"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4359460.758633771,
+          "latitude": 6747808.060182438,
+          "measurements": [
+            {
+              "temperature": 25.1,
+              "co2_level": 510,
+              "humidity": 47,
+              "pressure": 1011,
+              "createdAt": "2025-05-01T14:30:00Z",
+              "measurementDevice": {
+                "name": "SunTracker V2",
+                "manufacturer": "SolarMetrics",
+                "serialNumber": "SM-77892"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4359370.255887756,
+          "latitude": 6747301.426576014,
+          "measurements": [
+            {
+              "temperature": 20.7,
+              "co2_level": 405,
+              "humidity": 62,
+              "pressure": 1012,
+              "createdAt": "2025-05-01T07:45:00Z",
+              "measurementDevice": {
+                "name": "DewPoint Pro",
+                "manufacturer": "HydroLabs",
+                "serialNumber": "HL-33654"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4359525.479785719,
+          "latitude": 6747453.097170996,
+          "measurements": [
+            {
+              "temperature": 23.6,
+              "co2_level": 485,
+              "humidity": 53,
+              "pressure": 1012,
+              "createdAt": "2025-05-01T11:20:00Z",
+              "measurementDevice": {
+                "name": "UrbanClimate Pro",
+                "manufacturer": "AtmoSense",
+                "serialNumber": "AS-11235"
+              }
+            },
+            {
+              "temperature": 18.9,
+              "co2_level": 395,
+              "humidity": 68,
+              "pressure": 1013,
+              "createdAt": "2025-05-01T23:45:00Z",
+              "measurementDevice": {
+                "name": "NightOwl Eco",
+                "manufacturer": "Noctis Labs",
+                "serialNumber": "NL-88763"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4359457.419049047,
+          "latitude": 6747620.309962301,
+          "measurements": [
+            {
+              "temperature": 24.3,
+              "co2_level": 520,
+              "humidity": 49,
+              "pressure": 1010,
+              "createdAt": "2025-05-01T15:10:00Z",
+              "measurementDevice": {
+                "name": "HeatScan 3000",
+                "manufacturer": "ThermoDynamics",
+                "serialNumber": "TD-55678"
+              }
+            },
+            {
+              "temperature": 21.2,
+              "co2_level": 415,
+              "humidity": 60,
+              "pressure": 1011,
+              "createdAt": "2025-05-01T08:30:00Z",
+              "measurementDevice": {
+                "name": "MorningBreeze",
+                "manufacturer": "AeroSense",
+                "serialNumber": "AR-33421"
+              }
+            }
+          ]
+        }
+      ],
+      "organizationPoint": {
+        "name": "Парк Победы",
+        "longitude": 4359394.1561824287,
+        "latitude": 6747673.0542037515
+      }
+    }
+  ]
+}

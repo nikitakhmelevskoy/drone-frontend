@@ -1,0 +1,39 @@
+@import url("../../shared/styles/animations.scss");
+
+// .title_one {
+//   font-size: 2.5rem;
+
+//   line-height: 1.2;
+//   letter-spacing: 2px;
+//   color: var(--text-color);
+//   text-shadow: 0 0 10px var(--glow-color);
+// }
+
+.title {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: var(--accent-color);
+  text-shadow: 0 0 10px var(--glow-color);
+
+  span {
+    animation: glitch 0.5s linear infinite;
+  }
+}
+
+.descr {
+  font-size: 15px;
+  color: #b4b4cc;
+  margin-top: 7px !important;
+  margin-bottom: 65px !important;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.uploadBlock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

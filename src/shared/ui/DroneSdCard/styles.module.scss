@@ -1,0 +1,121 @@
+.neonDroneSvg {
+  overflow: visible;
+}
+
+.body {
+  fill: #111;
+  stroke: #0ff;
+  stroke-width: 2;
+  transition: all 0.3s ease;
+  &:hover {
+    filter: drop-shadow(0 0 6px #0ff);
+    stroke-width: 3;
+  }
+}
+
+.screen {
+  fill: #f0f;
+  stroke: #0ff;
+  stroke-width: 1;
+  transition: all 0.3s ease;
+  &:hover {
+    filter: drop-shadow(0 0 4px #f0f);
+  }
+}
+
+.button {
+  fill: #0ff;
+  stroke: #fff;
+  stroke-width: 1;
+  animation: pulse 1.5s infinite alternate;
+  transition: all 0.3s ease;
+  &:hover {
+    filter: drop-shadow(0 0 4px #0ff);
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.5;
+    r: 5.5;
+  }
+  to {
+    opacity: 1;
+    r: 6.5;
+  }
+}
+
+.arm {
+  stroke: #0ff;
+  stroke-width: 3;
+  transition: stroke-width 0.3s ease;
+  &:hover {
+    stroke-width: 4;
+  }
+}
+
+.motorGroup:hover .motor {
+  r: 9;
+  stroke-width: 2;
+}
+
+.motor {
+  fill: #222;
+  stroke: #0ff;
+  stroke-width: 1.5;
+  transition: all 0.3s ease;
+}
+
+.propeller {
+  fill: #0ff;
+  opacity: 0.7;
+}
+
+.sdSlot {
+  fill: #333;
+  stroke: #0ff;
+  stroke-width: 1;
+}
+
+.sdCardGroup {
+  animation: insertCard 2.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes insertCard {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(-15px);
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.sdCard {
+  fill: #0ff;
+  stroke: #fff;
+  stroke-width: 0.8;
+  transition: filter 0.3s ease;
+  &:hover {
+    filter: drop-shadow(0 0 5px #0ff);
+  }
+}
+
+.sdNotch {
+  fill: #111;
+}
+
+.sdLabel {
+  fill: #0ff;
+  font-size: 6px;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 0.6px;
+}

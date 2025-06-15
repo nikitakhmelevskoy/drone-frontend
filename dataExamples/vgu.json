@@ -1,0 +1,152 @@
+{
+  "polygons": [
+    {
+      "coordinates": [
+        [4364578.48960449, 6738297.108359874],
+        [4364540.475824477, 6738419.653279074],
+        [4364400.597952719, 6738385.7171447715],
+        [4364299.726814394, 6738518.949016774],
+        [4364290.656808279, 6738356.067580247],
+        [4364186.805278284, 6738297.108359874],
+        [4364242.551480903, 6738203.198573339],
+        [4364306.867979852, 6738097.245950338],
+        [4364404.524171812, 6738196.415915108],
+        [4364576.197207521, 6738148.610336735],
+        [4364578.48960449, 6738297.108359874]
+      ],
+      "points": [
+        {
+          "longitude": 4364248.609259135,
+          "latitude": 6738217.368408009,
+          "measurements": [
+            {
+              "temperature": 23.1,
+              "co2_level": 450,
+              "humidity": 52,
+              "pressure": 1012,
+              "createdAt": "2025-05-01T08:30:00Z",
+              "measurementDevice": {
+                "name": "Sensor-X200",
+                "manufacturer": "EcoTech",
+                "serialNumber": "ET-88741"
+              }
+            },
+            {
+              "temperature": 25.7,
+              "co2_level": 520,
+              "humidity": 48,
+              "pressure": 1011,
+              "createdAt": "2025-05-01T12:15:00Z",
+              "measurementDevice": {
+                "name": "Sensor-X200",
+                "manufacturer": "EcoTech",
+                "serialNumber": "ET-88741"
+              }
+            },
+            {
+              "temperature": 21.3,
+              "co2_level": 410,
+              "humidity": 60,
+              "pressure": 1013,
+              "createdAt": "2025-05-01T05:45:00Z",
+              "measurementDevice": {
+                "name": "ClimateGuard Pro",
+                "manufacturer": "AtmoSense",
+                "serialNumber": "AS-45632"
+              }
+            },
+            {
+              "temperature": 26.5,
+              "co2_level": 680,
+              "humidity": 45,
+              "pressure": 1010,
+              "createdAt": "2025-05-01T15:30:00Z",
+              "measurementDevice": {
+                "name": "AirQuality Monitor 5",
+                "manufacturer": "CleanAir Labs",
+                "serialNumber": "CAL-78901"
+              }
+            },
+            {
+              "temperature": 19.8,
+              "co2_level": 390,
+              "humidity": 65,
+              "pressure": 1014,
+              "createdAt": "2025-05-01T22:00:00Z",
+              "measurementDevice": {
+                "name": "Sensor-X200",
+                "manufacturer": "EcoTech",
+                "serialNumber": "ET-88741"
+              }
+            },
+            {
+              "temperature": 24.2,
+              "co2_level": 580,
+              "humidity": 50,
+              "pressure": 1012,
+              "createdAt": "2025-05-02T10:20:00Z",
+              "measurementDevice": {
+                "name": "EnviroTrack V2",
+                "manufacturer": "GreenSensors",
+                "serialNumber": "GS-33456"
+              }
+            },
+            {
+              "temperature": 27.1,
+              "co2_level": 710,
+              "humidity": 42,
+              "pressure": 1009,
+              "createdAt": "2025-05-02T14:50:00Z",
+              "measurementDevice": {
+                "name": "AirQuality Monitor 5",
+                "manufacturer": "CleanAir Labs",
+                "serialNumber": "CAL-78901"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4364285.339857416,
+          "latitude": 6738155.108308361,
+          "measurements": [
+            {
+              "temperature": 22.7,
+              "co2_level": 420,
+              "humidity": 48,
+              "pressure": 1013,
+              "createdAt": "2025-05-01T09:15:00Z",
+              "measurementDevice": {
+                "name": "ClimateGuard",
+                "manufacturer": "AirQ",
+                "serialNumber": "AQ-55632"
+              }
+            }
+          ]
+        },
+        {
+          "longitude": 4364534.86611623,
+          "latitude": 6738281.984685328,
+          "measurements": [
+            {
+              "temperature": 24.3,
+              "co2_level": 380,
+              "humidity": 44,
+              "pressure": 1011,
+              "createdAt": "2025-05-01T10:45:00Z",
+              "measurementDevice": {
+                "name": "AtmoProbe",
+                "manufacturer": "SkyMetrics",
+                "serialNumber": "SM-30987"
+              }
+            }
+          ]
+        }
+      ],
+      "organizationPoint": {
+        "name": "ВГУ",
+        "longitude": 4364393,
+        "latitude": 6738285
+      }
+    }
+  ]
+}

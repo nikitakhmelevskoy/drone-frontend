@@ -1,0 +1,34 @@
+@import url("../../styles/animations.scss");
+
+.button {
+  background-color: var(--primary-color);
+
+  color: black;
+
+  &_one {
+    box-shadow: rgba(0, 191, 255, 0.5) 0px 0px 15px;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    animation: 2s ease 0s infinite normal none running pulse;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+      );
+      transition: left 0.7s;
+    }
+  }
+
+  &:hover {
+    background-color: #0099cc;
+  }
+}

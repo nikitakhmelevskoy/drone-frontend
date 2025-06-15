@@ -1,0 +1,31 @@
+.alert.alert {
+  background: var(--card-bg-color);
+  border-radius: 5px;
+
+  &_error {
+    color: var(--error-color);
+    border: 1px solid var(--error-color);
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: var(--error-color);
+      opacity: 0.03;
+      pointer-events: none;
+    }
+  }
+
+  &_success {
+    border: 1px solid var(--success-color);
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: var(--success-color);
+      opacity: 0.1;
+      pointer-events: none;
+    }
+  }
+}
